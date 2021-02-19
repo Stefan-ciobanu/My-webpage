@@ -1,8 +1,8 @@
 import React from "react";
 import "./HomePage.css";
-import { Link } from "react-router-dom";
+import { Link, withRouter } from "react-router-dom";
 import Image1 from "../HomePage/Image1.jpg";
-import Header from "../Header/Header";
+//import HeaderWR from "../Header/Header";
 import { Container, Row, Col } from "react-bootstrap";
 import Image from "react-bootstrap/Image";
 
@@ -12,7 +12,7 @@ export default class HomePage extends React.Component {
       <div className="background-page">
         <div>
           <div className="table-home">
-            <Image src={Image1} className="photo" fluid />
+            <img src={Image1} className="photo" fluid />
 
             <div className="description">
               <h5 className="name-title">HI THERE!</h5>
