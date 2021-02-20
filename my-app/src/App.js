@@ -14,6 +14,7 @@ class App extends React.Component {
   render(){
   return (
     <Router>
+     <HeaderWR/>
       <Switch>
         <Route exact path="/">
           <HomePage/>

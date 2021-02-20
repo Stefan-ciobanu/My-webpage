@@ -5,7 +5,7 @@ import { detectDevice } from "../Shared/shared";
 import { Container, Row, Col } from "react-bootstrap";
 import { withRouter } from "react-router-dom";
 
-class Header extends React.Component {
+export class Header extends React.Component {
   render() {
     const userDevice = detectDevice();
 
@@ -16,12 +16,18 @@ class Header extends React.Component {
             userDevice !== "mobile" ? { width: "100%" } : { width: "auto" } //mobile
           }
         >
-          <Col xs={4} md={4} lg={6}>
+          <Col>
             <Row>
-              <Col xs={6} lg={2} className="logo-container"></Col>
-              <Col xs={6} lg={10} className="appname-container">
+              <Col className="appname-container">
                 <Link to="/">
-                  <p className="app-name"></p>
+                  <p className="app-name">Hello</p>
+                </Link>
+
+                <Link to="/about">
+                  <p className="app-name">Hello</p>
+                </Link>
+                <Link to="/project">
+                  <p className="app-name">Hello</p>
                 </Link>
               </Col>
             </Row>
@@ -31,4 +37,5 @@ class Header extends React.Component {
     );
   }
 }
+
 export const HeaderWR = withRouter(Header);

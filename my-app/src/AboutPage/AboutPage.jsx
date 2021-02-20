@@ -8,7 +8,7 @@ export default class AboutPage extends React.Component {
     return (
       <Container fluid className="cont-main color-change-3x">
         <Row className="title-about">
-          <h1 className="about-align">
+          <h1 className="about-align ">
             ABOUT
             <span className="style-me">ME</span>
           </h1>
@@ -93,6 +93,7 @@ export default class AboutPage extends React.Component {
                 <div className="box-style">
                   <h3 className="roboto-font">1</h3>
                   <p className="pa-para-style"> PROJECTS ONGOING</p>
+                  <p>ßsave</p>
                 </div>
               </Col>
             </Row>
