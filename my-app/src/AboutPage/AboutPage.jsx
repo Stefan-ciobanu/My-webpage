@@ -93,15 +93,222 @@ export default class AboutPage extends React.Component {
                 <div className="box-style">
                   <h3 className="roboto-font">1</h3>
                   <p className="pa-para-style"> PROJECTS ONGOING</p>
-                  <p>ßsave</p>
                 </div>
               </Col>
             </Row>
           </Col>
         </Row>
         <p className="separator"></p>
+        <Col className="experience-info">MY SKILLS</Col>
         <Row>
-          <Col className="circle-col-style"></Col>
+          <Col className="circle-col-style">
+            <div className="progress-bar-circle">
+              <div className="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div className="number">
+                  <h2>
+                    90<span className="color-percent"> %</span>
+                  </h2>
+                </div>
+                <h4 className="text">HTML</h4>
+              </div>
+            </div>
+          </Col>
+          <Col className="circle-col-style">
+            <div className="progress-bar-circle">
+              <div className="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div className="number">
+                  <h2>
+                    75<span className="color-percent"> %</span>
+                  </h2>
+                </div>
+                <h4 className="text">JavaScript</h4>
+              </div>
+            </div>
+          </Col>
+          <Col className="circle-col-style">
+            <div className="progress-bar-circle">
+              <div className="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div className="number">
+                  <h2>
+                    85<span className="color-percent"> %</span>
+                  </h2>
+                </div>
+                <h4 className="text">CSS</h4>
+              </div>
+            </div>
+          </Col>
+          <Col className="circle-col-style">
+            <div className="progress-bar-circle">
+              <div className="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div className="number">
+                  <h2>
+                    80<span className="color-percent"> %</span>
+                  </h2>
+                </div>
+                <h4 className="text">Bootstrap</h4>
+              </div>
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="circle-col-style">
+            <div className="progress-bar-circle">
+              <div className="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div className="number">
+                  <h2>
+                    93<span className="color-percent"> %</span>
+                  </h2>
+                </div>
+                <h4 className="text">WordPress</h4>
+              </div>
+            </div>
+          </Col>
+          <Col className="circle-col-style">
+            <div className="progress-bar-circle">
+              <div className="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div className="number">
+                  <h2>
+                    60<span className="color-percent"> %</span>
+                  </h2>
+                </div>
+                <h4 className="text">React</h4>
+              </div>
+            </div>
+          </Col>
+          <Col className="circle-col-style">
+            <div className="progress-bar-circle">
+              <div className="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div className="number">
+                  <h2>
+                    35<span className="color-percent"> %</span>
+                  </h2>
+                </div>
+                <h4 className="text">PHP</h4>
+              </div>
+            </div>
+          </Col>
+          <Col className="circle-col-style">
+            <div className="progress-bar-circle">
+              <div className="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div className="number">
+                  <h2>
+                    20<span className="color-percent"> %</span>
+                  </h2>
+                </div>
+                <h4 className="text">Jquery</h4>
+              </div>
+            </div>
+          </Col>
+        </Row>
+        <p className="separator"></p>
+        <Col className="experience-info">EXPERIENCE & EDUCATION</Col>
+        <Row>
+          <Col>
+            <ul>
+              <li>
+                <div>
+                  <div>data</div>
+                  <h3>
+                    {" "}
+                    job title
+                    <span> company</span>
+                  </h3>
+                  <p> description </p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div>data</div>
+                  <h3>
+                    {" "}
+                    job title
+                    <span> company</span>
+                  </h3>
+                  <p> description </p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div>data</div>
+                  <h3>
+                    {" "}
+                    job title
+                    <span> company</span>
+                  </h3>
+                  <p> description </p>
+                </div>
+              </li>
+            </ul>
+          </Col>
+          <Col>
+            <ul>
+              <li>
+                <div>
+                  <div>data</div>
+                  <h3>
+                    {" "}
+                    job title
+                    <span> company</span>
+                  </h3>
+                  <p> description </p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div>data</div>
+                  <h3>
+                    {" "}
+                    job title
+                    <span> company</span>
+                  </h3>
+                  <p> description </p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div>data</div>
+                  <h3>
+                    {" "}
+                    job title
+                    <span> company</span>
+                  </h3>
+                  <p> description </p>
+                </div>
+              </li>
+            </ul>
+          </Col>
         </Row>
       </Container>
     );

@@ -4,8 +4,22 @@ import { Link } from "react-router-dom";
 import { detectDevice } from "../Shared/shared";
 import { Container, Row, Col } from "react-bootstrap";
 import { withRouter } from "react-router-dom";
-
+import homesolid from "../Utils/homesolid.svg";
+import usersolid from "../Utils/usersolid.svg";
+import taskssolid from "../Utils/taskssolid.svg";
 export class Header extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      hover: "",
+    };
+  }
+
+  onHover() {
+    this.setState({
+      hover: "Home",
+    });
+  }
   render() {
     const userDevice = detectDevice();
 
@@ -20,14 +34,14 @@ export class Header extends React.Component {
             <Row>
               <Col className="appname-container">
                 <Link to="/">
-                  <p className="app-name">Hello</p>
+                  <img src={homesolid} className="app-name  " />
                 </Link>
 
                 <Link to="/about">
-                  <p className="app-name">Hello</p>
+                  <img src={usersolid} className="app-name" />
                 </Link>
                 <Link to="/project">
-                  <p className="app-name">Hello</p>
+                  <img src={taskssolid} className="app-name" />
                 </Link>
               </Col>
             </Row>

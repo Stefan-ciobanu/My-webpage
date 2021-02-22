@@ -10,7 +10,7 @@
     background: #030203;
   }
   50% {
-    background: #1b2c29;
+    background: #1d2422;
   }
   100% {
     background: #030203;
@@ -24,14 +24,14 @@
     background: #030203;
   }
   100% {
-    background: #243d38;
+    background: #1f2524;
   }
 }
 
 .cont-main {
   background-color: black;
   padding-top: 100px;
-  height: 100vh;
+  height: 100%;
 }
 
 .col-col-align {
@@ -150,8 +150,101 @@
   background-color: rgb(255, 180, 3);
   color: antiquewhite;
 }
+.separator {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.separator::before {
+  color: rgba(250, 235, 215, 0.26);
+  content: "———————————————————————";
+  font-size: 20px;
+}
 
-.separator::content {
-  color: rgba(250, 235, 215, 0.623);
-  content: "———————————————————————————————————————————————";
+.circle-col-style {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.progress-bar-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.percent {
+  font-family: "Montserrat", sans-serif;
+}
+
+.percent .number {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: antiquewhite;
+}
+
+.number .color-percent {
+  font-size: 17px;
+  color: rgb(165, 130, 55);
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: antiquewhite;
+}
+
+svg {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+svg circle {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: rgb(46, 45, 45);
+  stroke-width: 10;
+  stroke-linecap: round;
+  transform: translate(5px, 5px);
+}
+
+svg circle:nth-child(2) {
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+}
+
+.circle-col-style:nth-child(1) svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440 * 90) / 100);
+  stroke: rgb(255, 180, 3);
+}
+.circle-col-style:nth-child(2) svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440 * 70) / 100);
+  stroke: rgb(255, 180, 3);
+}
+.circle-col-style:nth-child(3) svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440 * 60) / 100);
+  stroke: rgb(255, 180, 3);
+}
+.circle-col-style:nth-child(4) svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440 * 80) / 100);
+  stroke: rgb(255, 180, 3);
+}
+
+.experience-info {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 27px;
+  color: antiquewhite;
 }
