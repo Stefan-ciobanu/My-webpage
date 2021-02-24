@@ -2,6 +2,9 @@ import React from "react";
 import "./AboutPage.css";
 import { Container, Row, Col } from "react-bootstrap";
 import { ProgressBar } from "react-bootstrap";
+import briefcasesolid from "../Utils/briefcasesolid.svg";
+import graduationcapsolid from "../Utils/graduationcapsolid.svg";
+import StefanCiobanuCV from "../Utils/StefanCiobanuCV.pdf";
 
 export default class AboutPage extends React.Component {
   render() {
@@ -38,7 +41,12 @@ export default class AboutPage extends React.Component {
                     <span className="details-fonts"> Roumanian</span>
                   </li>
                 </ul>
-                <button className="button-cv" href="#">
+                <button
+                  className="button-cv"
+                  href={StefanCiobanuCV}
+                  target="_blank"
+                  download
+                >
                   DOWNLOAD CV
                 </button>
               </Col>
@@ -236,75 +244,93 @@ export default class AboutPage extends React.Component {
         <Col className="experience-info">EXPERIENCE & EDUCATION</Col>
         <Row>
           <Col>
-            <ul>
-              <li>
+            <ul className="ul-container">
+              <li className="li-box">
                 <div>
-                  <div>data</div>
-                  <h3>
+                  <div>
+                    <img src={briefcasesolid} className="icon-style" />
+                    <span className="data-style">18 May 2020</span>
+                  </div>
+                  <h3 className="job-title">
                     {" "}
                     job title
-                    <span> company</span>
+                    <span className="company"> company</span>
                   </h3>
-                  <p> description </p>
+                  <p className="li-description"> description </p>
                 </div>
               </li>
-              <li>
+              <li className="li-box">
                 <div>
-                  <div>data</div>
-                  <h3>
+                  <div>
+                    <img src={briefcasesolid} className="icon-style" />
+                    <span className="data-style">data</span>
+                  </div>
+                  <h3 className="job-title">
                     {" "}
                     job title
-                    <span> company</span>
+                    <span className="company"> company</span>
                   </h3>
-                  <p> description </p>
+                  <p className="li-description"> description </p>
                 </div>
               </li>
-              <li>
+              <li className="li-box">
                 <div>
-                  <div>data</div>
-                  <h3>
+                  <div>
+                    <img src={briefcasesolid} className="icon-style" />
+                    <span className="data-style">data</span>
+                  </div>
+                  <h3 className="job-title">
                     {" "}
                     job title
-                    <span> company</span>
+                    <span className="company"> company</span>
                   </h3>
-                  <p> description </p>
+                  <p className="li-description"> description </p>
                 </div>
               </li>
             </ul>
           </Col>
           <Col>
-            <ul>
-              <li>
+            <ul className="ul-container-2">
+              <li className="li-box">
                 <div>
-                  <div>data</div>
-                  <h3>
+                  <div>
+                    <img src={graduationcapsolid} className="icon-style" />
+                    <span className="data-style">data</span>
+                  </div>
+                  <h3 className="job-title">
                     {" "}
                     job title
-                    <span> company</span>
+                    <span className="company"> company</span>
                   </h3>
-                  <p> description </p>
+                  <p className="li-description-1"> description </p>
                 </div>
               </li>
-              <li>
+              <li className="li-box">
                 <div>
-                  <div>data</div>
-                  <h3>
+                  <div>
+                    <img src={graduationcapsolid} className="icon-style" />
+                    <span className="data-style">data</span>
+                  </div>
+                  <h3 className="job-title">
                     {" "}
                     job title
-                    <span> company</span>
+                    <span className="company"> company</span>
                   </h3>
-                  <p> description </p>
+                  <p className="li-description-1"> description </p>
                 </div>
               </li>
-              <li>
+              <li className="li-box">
                 <div>
-                  <div>data</div>
-                  <h3>
+                  <div>
+                    <img src={graduationcapsolid} className="icon-style" />
+                    <span className="data-style">data</span>
+                  </div>
+                  <h3 className="job-title">
                     {" "}
                     job title
-                    <span> company</span>
+                    <span className="company"> company</span>
                   </h3>
-                  <p> description </p>
+                  <p className="li-description-1"> description </p>
                 </div>
               </li>
             </ul>
