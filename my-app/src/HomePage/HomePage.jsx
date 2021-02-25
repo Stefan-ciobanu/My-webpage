@@ -12,7 +12,7 @@ export default class HomePage extends React.Component {
       <div className="background-page">
         <div>
           <div className="table-home">
-            <img src={Image1} className="photo" fluid />
+            <div className="photo"></div>
 
             <div className="description">
               <h5 className="name-title">HI THERE!</h5>
