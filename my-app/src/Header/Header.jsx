@@ -17,7 +17,7 @@ export class Header extends React.Component {
 
   onHover() {
     this.setState({
-      hover: "Home",
+      hover: "",
     });
   }
   render() {

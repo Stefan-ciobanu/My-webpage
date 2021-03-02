@@ -7,12 +7,15 @@ import ProjectPage from "./ProjectPage/ProjectPage";
 import { HeaderWR } from "./Header/Header";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
+import PopUp from "../src/PopUpPage/PopUp";
+
 
 class App extends React.Component {
   
 
   render(){
   return (
+    
     <Router>
      <HeaderWR/>
       <Switch>
@@ -24,6 +27,9 @@ class App extends React.Component {
         </Route>
         <Route exact path="/project">
           <ProjectPage/>
+        </Route>
+        <Route exact path="/pop">
+          <PopUp/>
         </Route>
       </Switch>
     </Router>

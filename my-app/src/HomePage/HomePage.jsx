@@ -5,6 +5,8 @@ import Image1 from "../HomePage/Image1.jpg";
 //import HeaderWR from "../Header/Header";
 import { Container, Row, Col } from "react-bootstrap";
 import Image from "react-bootstrap/Image";
+import PopUp from "../PopUpPage/PopUp";
+import AboutPage from "../AboutPage/AboutPage";
 
 export default class HomePage extends React.Component {
   render() {
