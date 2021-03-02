@@ -4,6 +4,8 @@
 .color-change-3x {
   -webkit-animation: color-change-3x 10s linear infinite alternate both;
   animation: color-change-3x 10s linear infinite alternate both;
+  padding-top: 100px;
+  height: 100%;
 }
 @-webkit-keyframes color-change-3x {
   0% {
@@ -29,7 +31,6 @@
 }
 
 .cont-main {
-  background-color: black;
   padding-top: 100px;
   height: 100%;
 }
@@ -261,7 +262,7 @@ svg circle:nth-child(2) {
 
 .li-box {
   width: 500px;
-  height: 200px;
+  height: 250px;
   padding: 15px;
   border-radius: 20px;
   border-style: solid;
@@ -270,6 +271,11 @@ svg circle:nth-child(2) {
   margin-bottom: 30px;
   color: antiquewhite;
   list-style: none;
+}
+
+.li-description {
+  display: flex;
+  flex-direction: column;
 }
 
 .icon-style {

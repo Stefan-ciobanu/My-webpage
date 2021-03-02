@@ -216,7 +216,7 @@ export default class AboutPage extends React.Component {
                 </svg>
                 <div className="number">
                   <h2>
-                    35<span className="color-percent"> %</span>
+                    25<span className="color-percent"> %</span>
                   </h2>
                 </div>
                 <h4 className="text">PHP</h4>
@@ -232,10 +232,10 @@ export default class AboutPage extends React.Component {
                 </svg>
                 <div className="number">
                   <h2>
-                    20<span className="color-percent"> %</span>
+                    70<span className="color-percent"> %</span>
                   </h2>
                 </div>
-                <h4 className="text">Jquery</h4>
+                <h4 className="text">SEO</h4>
               </div>
             </div>
           </Col>
@@ -249,42 +249,61 @@ export default class AboutPage extends React.Component {
                 <div>
                   <div>
                     <img src={briefcasesolid} className="icon-style" />
-                    <span className="data-style">18 May 2020</span>
+                    <span className="data-style">Aug 2019 - Present</span>
                   </div>
                   <h3 className="job-title">
                     {" "}
-                    job title
-                    <span className="company"> company</span>
+                    WordPress Developer
+                    <span> at </span>
+                    <span className="company">Thrupny</span>
                   </h3>
-                  <p className="li-description"> description </p>
+                  <ul className="li-description">
+                    <li>Developing website</li>
+                    <li>Optimising the site</li>
+                    <li>SEO</li>
+                    <li>Security</li>
+                    <li>Speed optimization</li>
+                  </ul>
                 </div>
               </li>
               <li className="li-box">
                 <div>
                   <div>
                     <img src={briefcasesolid} className="icon-style" />
-                    <span className="data-style">data</span>
+                    <span className="data-style">Sept 2019 - Present</span>
                   </div>
                   <h3 className="job-title">
                     {" "}
-                    job title
-                    <span className="company"> company</span>
+                    WordPress Developer
+                    <span> at </span>
+                    <span className="company">Apex Privacy</span>
                   </h3>
-                  <p className="li-description"> description </p>
+                  <ul className="li-description">
+                    <li>WordPress site development</li>
+                    <li>SEO</li>
+                    <li>Security</li>
+                    <li>Administration</li>
+                  </ul>
                 </div>
               </li>
               <li className="li-box">
                 <div>
                   <div>
                     <img src={briefcasesolid} className="icon-style" />
-                    <span className="data-style">data</span>
+                    <span className="data-style">March 2016 - Aug 2020</span>
                   </div>
                   <h3 className="job-title">
                     {" "}
-                    job title
-                    <span className="company"> company</span>
+                    Co-Founder
+                    <span>, </span>
+                    <span className="company">Sesabro Company SRL</span>
                   </h3>
-                  <p className="li-description"> description </p>
+                  <p className="li-description">
+                    {" "}
+                    The company had the activity around the IT segment. We
+                    maintained the healty habit by delivering fresh fruits to
+                    employees.{" "}
+                  </p>
                 </div>
               </li>
             </ul>
@@ -295,42 +314,57 @@ export default class AboutPage extends React.Component {
                 <div>
                   <div>
                     <img src={graduationcapsolid} className="icon-style" />
-                    <span className="data-style">data</span>
+                    <span className="data-style">Sep 2020 - March 2021</span>
                   </div>
                   <h3 className="job-title">
                     {" "}
-                    job title
-                    <span className="company"> company</span>
+                    JS Developer
+                    <span>, </span>
+                    <span className="company"> Informal School of IT</span>
                   </h3>
-                  <p className="li-description-1"> description </p>
+                  <ul className="li-description-1">
+                    {" "}
+                    I had opportunity to work and operate with:{" "}
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Node</li>
+                    <li>Bootstrap</li>
+                  </ul>
                 </div>
               </li>
               <li className="li-box">
                 <div>
                   <div>
                     <img src={graduationcapsolid} className="icon-style" />
-                    <span className="data-style">data</span>
+                    <span className="data-style">Ian 2020 - Aug 2020</span>
                   </div>
                   <h3 className="job-title">
                     {" "}
-                    job title
-                    <span className="company"> company</span>
+                    Using a code editor
+                    <span>, </span>
+                    <span className="company">
+                      {" "}
+                      Laura Holmes Grasshopper Founder & CEO
+                    </span>
                   </h3>
-                  <p className="li-description-1"> description </p>
                 </div>
               </li>
               <li className="li-box">
                 <div>
                   <div>
                     <img src={graduationcapsolid} className="icon-style" />
-                    <span className="data-style">data</span>
+                    <span className="data-style">Aug 2010 - Aug 2013</span>
                   </div>
                   <h3 className="job-title">
                     {" "}
-                    job title
-                    <span className="company"> company</span>
+                    Dental Technician
+                    <span>, </span>
+                    <span className="company">
+                      {" "}
+                      University of Medicine and Pharmacy
+                    </span>
                   </h3>
-                  <p className="li-description-1"> description </p>
+                  <p className="li-description-1"> Dental Technician </p>
                 </div>
               </li>
             </ul>
